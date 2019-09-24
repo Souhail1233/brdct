@@ -1,10 +1,10 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 console.log("3bker");
-var prefix = "k!b";
+var prefix = "k!";
 client.on("message", message => {
 
-            if (message.content.startsWith(prefix + "la")) {
+            if (message.content.startsWith(prefix + "b")) {
                          if (!message.member.hasPermission("ADMINISTRATOR"))  return;
   let args = message.content.split(" ").slice(1);
   var argresult = args.join(' '); 
