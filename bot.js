@@ -5,7 +5,7 @@ var prefix = "k!b";
 
 client.on('ready', function () {
     console.log('Bot Connected')
-    client.user.setGame(`Kingdom System ( Prefix: + )`,"http://twitch.tv/Death Shop")
+    client.user.setGame(`Kingdom Broadcast ( k!b Message )`,"http://twitch.tv/Death Shop")
 })
 
 client.on("message", message => {
